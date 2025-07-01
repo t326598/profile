@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>크롬 전용 페이지입니다.</title>
+	<meta name="description" content="봉승근" />
+	<meta name="keywords" content="봉승근" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/animate.css" />
+	<script src="js/modernizr-custom.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery-1.8.3.js"></script>
+	<script src="js/jquery.mvs.js"></script>
+	<script src=""></script>
+    <script>
+	$(document).ready(function() {
+		$('.button--zoom').click(function() {
+			$('.menu-button').css('display','none')
+		});
+		$('.button--close').click(function() {
+			$('.menu-button').css('display','inline-block')
+		});
+	});
+	</script>
+</head>
+
+<body>
+	<!-- navigation -->
+	<nav class="pages-nav">
+		<div class="pages-nav__item"><a class="link link--page" href="#page-home">Portfolio</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-docu">Profile</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-manuals">Hobby &amp; Like</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-software">Ability</a></div>
+		<div class="pages-nav__item"><a class="link link--page" href="#page-custom">History</a></div>
+		<!-- <div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-buy">Where to buy</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-blog">Blog &amp; News</a></div>
+		<div class="pages-nav__item pages-nav__item--small"><a class="link link--page link--faded" href="#page-contact">Contact</a></div> -->
+		<div class="pages-nav__item pages-nav__item--social">
+			<a class="link link--social link--faded" href="https://github.com/t326598"><i class="fa fa-github"></i><span class="text-hidden">GitHub</span></a>
+		</div>
+	</nav>
+	<!-- /navigation-->
+	<!-- pages stack -->
+	<div class="pages-stack">
+		<!-- page -->
+		<div class="page" id="page-home">
+			<!-- Blueprint header -->
+			<header class="bp-header cf">
+				<span class="bp-header__present">Portfolio <span class="bp-tooltip fa fa-info-circle" data-content="시작이 반입니다. 저의 포트폴리오부터 감상부탁드립니다."></span></span>
+				<h1 class="bp-header__title">포트폴리오</h1>
+				<p class="bp-header__desc">포트폴리오 페이지 중앙 돋보기를 클릭하시면 더욱 상세한 정보를 확인 하실 수 있습니다.</p>
+			</header>
+            <div class="container">
+                <section class="slider">
+					<div class="slide slide--current" data-content="content-1">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                                <div class="preview">
+                                    <img src="images/fiftyfifty.jpg" class="size-5" alt="preview" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="slide__title"><span>Portfolio Side Project</span> FIFTYFIFTY 팬 페이지</h2>
+                    </div>
+
+					<div class="slide" data-content="content-2">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                                <div class="preview">
+                                    <img src="images/web.jpg" class="size-5" alt="preview" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="slide__title"><span>Portfolio Side Project</span> Web기반 영상 편집기</h2>
+                    </div>
+					<div class="slide" data-content="content-3">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                                <div class="preview">
+                                    <img src="images/web.jpg" class="size-5" alt="preview" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="slide__title"><span>Portfolio Team Project</span> 스마트 헬스장 관리시스템</h2>
+                    </div>
+
+					<div class="slide" data-content="content-4">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                                <div class="preview">
+                                    <img src="images/p6.png" class="size-5" alt="preview" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="slide__title"><span>Side Project</span> 횡성 워케이션 플랫폼</h2>
+                    </div>
+					
+					<div class="slide" data-content="content-5">
+                        <div class="slide__mover">
+                            <div class="zoomer flex-center">
+                                <img class="zoomer__image" src="images/imac.png" alt="iMac" />
+                                <div class="preview">
+                                    <img src="images/p7.png" class="size-5" alt="preview" />
+                                    <div class="zoomer__area zoomer__area--size-5"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="slide__title"><span>Side Project</span>LGT Data Platform</h2>
+                    </div>
+                    <nav class="slider__nav">
+                        <button class="button button--nav-prev"><i class="fa fa-angle-left"></i><span class="text-hidden">Previous product</span></button>
+                        <button class="button button--zoom"><i class="fa fa-search"></i><span class="text-hidden">View details</span></button>
+                        <button class="button button--nav-next"><i class="fa fa-angle-right"></i><span class="text-hidden">Next product</span></button>
+                        
+                    </nav>
+                </section>
+                <!-- /slider-->
+                <section class="content">
+                    <div class="content__item" id="content-1">
+                        <img class="content__item-img rounded" src="images/fiftyfifty.jpg" alt="Content" />
+                        <div class="content__item-inner">
+                            <h2>FIFTYFIFTY  팬페이지</h2>
+                            <h3>Portfolio Side Project</h3>
+                            <p>일정, 미디어, 멤버 정보 등을 통합 제공하며, Vue 3 + Spring Boot 기반으로 개발된 콘텐츠 관리형 플랫폼입니다.</p>
+                            <p>Day/Night 테마, 유튜브 자동 랭킹 업데이트 등 팬 사용자 경험을 강화했습니다.</p>
+                            <p>Netlify, Render, AWS S3, CloudFront, RDS를 통해 배포했으며 Git Action으로 CI/CD를 관리했습니다.</p>
+                            <p>배포 과정에서 부팅 속도를 90초 > 40초로 55% 단축했습니다.</p>
+                            <p>Back과 Front에서 기능별로 구현하여 유지보수성과 재사용성을 높였습니다.</p>
+                            <p><a href="https://fiftypage.netlify.app/" target="_blank">[FIFTYFIFTY 팬 페이지]</a>  <a href="https://github.com/t326598/fiftyfiftypage" target="_blank">[FIFTY Page Github]</a></p>
+                        </div>
+                    </div>
+                    <div class="content__item" id="content-2">
+                        <img class="content__item-img rounded" src="images/web.jpg" alt="Content" />
+                        <div class="content__item-inner">
+                            <h2>Web기반 영상 편집기</h2>
+                            <h3>Portfolio Side Project</h3>
+                            <p>Vue 3.0, FFmpeg를 활용하여 브라우저에서 영상 부분 및 구간자르기 + 병함, 미리보기, 다운로드가 가능한 데모 프로젝트입니다.</p>
+                            <p>영상 편집 도구에 대한 기술적 이해를 높이고 실무 능력을 키우고자 진행했습니다.</p>
+                            <p class="type">기술스택: FFmpeg, JavaScript, HTML, CSS, Vue.js</p>
+                           	<a href="https://github.com/t326598/WebVideoEditor" target="_blank">[Web기반 영상 편집기 Github]</a></p>
+							<a href="https://6852e2972af81114f58ff076--aesthetic-selkie-6d64e9.netlify.app/" target="_blank">[Web기반 영상 편집기 페이지]</a></p>
+                   		</div>
+ 					</div>
+                    <div class="content__item" id="content-3">
+                        <img class="content__item-img rounded" src="images/p8.png" alt="Content" />
+                        <div class="content__item-inner">
+                            <h2>스마트 헬스장 관리시스템</h2>
+                            <h3>Portfolio Team Project</h3>
+                            <p>학원에서 진행한 팀 포트폴리오 프로젝트 입니다.</p>
+                            <p>스마트기기를 사용 하여 헬스장의 관리시스템을 이용 할 수 있는 웹서비스 페이지 입니다.</p>
+                            <p class="type">Type : mvc(html), flutter, react</p>
+                              <li><strong>공통 백엔드</strong>: Spring Boot, Spring Security, MyBatis, MySQL</li>
+                            <p><a href="pdf/MVC패턴.pdf" target="_blank">[MVC 패턴]</a>  <a href="https://github.com/t326598/MSA_9-Project" target="_blank">[MVC Github]</a></p>
+                          
+                            <p><a href="pdf/React.pdf" target="_blank">[React + Spring]</a> <a href="https://github.com/t326598/MSA9_GYM_REST" target="_blank">[React Github]</a></p>
+                            <p><a href="pdf/Flutter.pdf" target="_blank">[Flutter + Spring]</a><a href="https://github.com/t326598/MSA9_GYM_FLUTTER" target="_blank">[Flutter Github]</a></p>
+                        </div>
+                    </div>
+
+                    <div class="content__item" id="content-4">
+                        <img class="content__item-img rounded" src="images/p6.png" alt="Content" />
+                        <div class="content__item-inner">
+                            <h2>횡성 워케이션 플랫폼</h2>
+                            <h3>Side Project</h3>
+                            <p>횡성시에서 진행하는 워케이션 서비스 예약 플랫폼입니다.</p>
+                            <p>프론트 퍼블리싱의 서브 작업을 진행하였습니다.</p>
+                            <p class="type">Type : PC웹</p>
+                            <p><a href="#.">[Pre-launch]</a></p>
+                        </div>
+                    </div>
+					
+                    <div class="content__item" id="content-5">
+                        <img class="content__item-img rounded" src="images/p7.png" alt="Content" />
+                        <div class="content__item-inner">
+                            <h2>LG 데이타 플랫폼</h2>
+                            <h3>Side Project</h3>
+                            <p>LGT TV의 빅데이타 플랫폼입니다. </p>
+                            <p>React, next.js 를 사용프로넥트, MUI 라이브러리를 통해 사이드 프론트 개발을 도왔습니다.</p>
+                            <p class="type">Type : 반응형</p>
+                            <p><a href="#.">[2026년 OPEN]</a></p>
+                        </div>
+                    </div>
+                    <button class="button button--close"><i class="fa fa-close"></i><span class="text-hidden">Close content</span></button>
+                </section>
+            </div>
+		</div>
+		<!-- /page -->
+		<div class="page" id="page-docu">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">김도현 (만 27세)</h1> 	
+				<h3>이메일: t326598@naver.com</h3>
+				<h3>깃허브: <a href="https://github.com/t326598" target="_blank">[Github]</a></h3>
+				<p class="bp-header__desc">사회 경험을 토대로 <a href="#."> 'WHY'를 고민하고 'HOW'를 찾는 개발자입니다.</a></p>
+				<p class="info">
+				    사회 경험을 통해 안정성과 효율의 중요성을 배웠고, 사용자 니즈를 직접 반영하는 개발을 지향합니다.<br/>
+					경험을 바탕으로 직무 이해도를 넓히고, 더 빠르게 성장하는 개발자가 되기 위해 노력하고 있습니다.<br/>
+					항상 왜 이렇게 구현되는지 고민하고 어떻게하면 좋을지 찾으며 성장하는 열정, 저의 가장 큰 장점입니다.</p>
+				
+			</header>
+			<img class="poster" src="images/profile.jpg" alt="사진도알아서"  style="width: 15%;"/>
+		</div>
+		<div class="page" id="page-manuals">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Hobby & Like</h1>
+				<p class="bp-header__desc">게임 & 여행 그리고  <a href="https://dribbble.com/shots/2286042-Stacked-navigation">새로운 경험을 좋아합니다.</a></p>
+				<h1>blog</h1>
+				<p>
+					게임블로그 7년째 꾸준하게 운영 중..
+				</p>
+				<h1>Game</h1>
+				<p class="info">
+					&nbsp;&nbsp; League of Legend - 12년 플레이, 최고 티어 마스터 <br>
+					&nbsp;&nbsp; OverWatch - 3년 플레이, 최고 티어 그랜드마스터 <br>
+					&nbsp;&nbsp; 스팀 게임 140개 보유 중 <br>
+					&nbsp;&nbsp; 각종 보드게임 좋아함
+				</p>
+				<h1>Travel</h1>
+				<h2>국내</h2>
+				<p class="info">
+					&nbsp;&nbsp; 속초, 월미도, 부산, 여수, 제주도, 목포, 파주, 포천, 대전
+				</p>
+				<h2>일본</h2>
+				<p class="info">
+					&nbsp;&nbsp; 도쿄, 오사카 <br>
+				</p>
+				<h2>유럽</h2>
+				<p class="info">
+					&nbsp;&nbsp;스페인, 프랑스, 영국, 이탈리아, 스웨덴, 에스토니아, 덴마크, 핀란드
+				</p>
+			</header>
+			<img class="poster1" src="images/gm&tr.png" alt="img02" />
+		</div>
+		<div class="page" id="page-software">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Skills & Tools</h1>
+				<br>
+				<h2>Language</h2>
+				<p class="info">
+					&nbsp&nbsp	<span> - HTML5, CSS3, Java, JavaScript, TypeScript, Dart</span> 
+				</p>
+				<h2>Backend</h2>
+				<p class="info">
+					&nbsp&nbsp	<span> - Node.js, JSP, Spring Boot, Mybatis, Spring Security, JWT</span>
+				</p>
+				<h2>Frontend</h2>
+				<p class="info">
+					&nbsp&nbsp	<span> - vue.js, Thymeleaf, bootstrap, React, jquery, Flutter</span>
+				</p>
+				<h2>RDBMS</h2>
+				<p class="info">
+					&nbsp&nbsp	<span> - MySQL</span>
+				</p>
+				<h2>Collaboration</h2>
+				<p class="info">
+					&nbsp&nbsp	<span> - Git, Trello, Figma, Google Drive, Teams</span>
+				</p>
+				<h2>Deployment / Infra</h2>
+				<p class="info">
+					nbsp;&nbsp;<span> - Netlify, Render, AWS S3, AWS RDS, CDN</span>
+				</p>
+			</header>
+			<img class="poster" src="images/3.jpg" alt="img03" />
+		</div>
+		<div class="page" id="page-custom">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">History</h1>
+				<p class="bp-header__desc">경력 사항에 대한 히스토리 입니다.</a></p>
+				<div id="history">
+					<div class="his-tbox">
+						<div class="his-box">
+							<strong class="circle animated rotateIn">
+										<span class="en_bk">2019's</span>
+										<span>~ 현재</span>
+							</strong>
+							<ul class="his-list">
+								<li>
+									<strong class="his-year en_bk mvs fadeShotUp" data-mvs-delay="0.0">2019's</strong>
+									<ul>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.1s"><strong class="en_bk">01</strong>2019.10 (주) 후니드 TM사업본부 입사</li>
+									</ul>
+								</li>
+								<li>
+									<strong class="his-year en_bk mvs fadeShotUp" data-mvs-delay="0.0">2024's</strong>
+									<ul>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.1s"><strong class="en_bk">01</strong>2024.03 (주) 후니드 TM사업본부 퇴사</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.2s"><strong class="en_bk">02</strong>2024.08 더조은 컴퓨터 아카데미 이수</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.2s"><strong class="en_bk">03</strong>2024.10 Mini Project JSP 중고거래 애플마켓</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.2s"><strong class="en_bk">04</strong>2024.11 Team Project MVC 패턴 헬스장 관리 시스템</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.2s"><strong class="en_bk">05</strong>2024.12 Team Project React REST API 헬스장 관리 시스템</li>
+
+									</ul>
+								</li>
+								<li>
+									<strong class="his-year en_bk mvs fadeShotUp" data-mvs-delay="0.0">2025's</strong>
+									<ul>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.2s"><strong class="en_bk">01</strong>2025.01 Team Project Flutter + Dart 헬스장 관리 시스템</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.1s"><strong class="en_bk">02</strong>2025.02 더조은 컴퓨터 아카데미 수료</li>
+										<li class="mvs fadeShotUp" data-mvs-delay="0.1s"><strong class="en_bk">02</strong>2025.05 사이드 프로젝트 진행 중</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class="page" id="page-buy">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Where to buy</h1>
+				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+				<p class="info">
+					"When people ask me why I don't eat meat or any other animal products, I say, 'Because they are unhealthy and they are the product of a violent and inhumane industry.'" &mdash;
+				</p>
+			</header>
+			<img class="poster" src="images/6.jpg" alt="img06" />
+		</div>
+		<div class="page" id="page-blog">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Blog &amp; News</h1>
+				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+				<p class="info">
+					"The question is not, 'Can they reason?' nor, 'Can they talk?' but rather, 'Can they suffer?" &mdash; Jeremy Bentham
+				</p>
+			</header>
+			<img class="poster" src="images/1.jpg" alt="img01" />
+		</div>
+		<div class="page" id="page-contact">
+			<header class="bp-header cf">
+				<h1 class="bp-header__title">Contact</h1>
+				<p class="bp-header__desc">Based on Ilya Kostin's Dribbble shot <a href="https://dribbble.com/shots/2286042-Stacked-navigation">Stacked navigation</a></p>
+				<p class="info">
+					"Man is the only animal that can remain on friendly terms with the victims he intends to eat until he eats them." &mdash; Samuel Butler
+				</p>
+			</header>
+			<img class="poster" src="images/4.jpg" alt="img04" />
+		</div>
+	</div>
+	<!-- /pages-stack -->
+	<button class="menu-button"><span>Menu</span></button>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/main2.js"></script>
+</body>
+
+</html>
